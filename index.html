@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="bg-">
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg header__nav d-inline-flex">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active nav__link" aria-current="page" href="#">Рецепты</a>
+                                <a class="nav-link active nav__link" aria-current="page" href="#">Доставка и оплата</a>
+                                <a class="nav-link active nav__link" aria-current="page" href="#">Калькулятор
+                                    сыродела</a>
+                                <a class="nav-link active nav__link" aria-current="page" href="#">Отзывы</a>
+                                <a class="nav-link active nav__link" aria-current="page" href="#">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <a href="#" class="header__login text-nowrap float-end">Войти в аккаунт</a>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+                <div class="header__bottom__title d-inline-flex flex-column">
+                    <h1 class="d-inline-block text-uppercase fw-bold header__title m-0">Сыроварение</h1>
+                    <p class="d-inline-block header__P">Оборудование и товары для сыроделья</p>
+                </div>
+                <div class="header__delivery d-inline-block">
+                    <a href="#"><span class="delivery__Span delivery__img me-5">Бесплатная доставка</span></a>
+                    <a href="#"><span class="delivery__Span delivery__img2 ms-5">Защита покупателей</span></a>
+                </div>
+                <div class="tel">
+                    <span class="tel_span">+8 916 460-19-60</span>
+                    <button type="button" class="btn btn-outline-warning tel_btn text-nowrap"><img src="img/phone.png"
+                            alt="" class="d-inline-block pe-2">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sidebar">
+        <div class="container">
+            <div class="sidebar__nav">
+                <a href="#" class="sidebar__nav__main">Главная</a>
+                <span>></span>
+                <a href="#" class="sidebar__nav__other">Рецепты</a>
+            </div>
+            <ul class="list-unstyled text-nowrap d-grid">
+                <li class="sidebar__li li__active"><a href="#" class="sidebar_a">Ингредиенты</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Закваски для сыра</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Ферменты для сыра</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Хлористый кальций</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Плесень для сыра</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Кисломолочные закваски</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Красители для сыра</a></li>
+                <li class="sidebar__li"><a href="#" class="sidebar_a">Специи для сыра</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content d-inline-block">
+        <div class="cheese_1">
+            <h1 class="content__title">Рецепты сыров</h1>
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-2 gx-3">
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/cheese-2.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Молодые сыры</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/cheese-1.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Твердые сыры</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/cheese-3.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Полутвердые сыры</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/cheese-4.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Паста филата</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/chees-5.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Кисломолочные сыры</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cheese_card">
+                        <img src="img/cheese-6.png" alt="" class="position-relative h-100">
+                        <img src="img/cheese-bg.png" alt="" class="position-absolute w-100 h-100">
+                        <div class="card-body position-absolute cheese_title">
+                            <h5 class="col_title">Рассольные сыры</h5>
+                            <a href="#" class="col_link">Смотреть ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cheese_2">
+            <h2 class="content__title">Последние добавленные</h2>
+            <div class="row g-3">
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/cheese-2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Сырная тарелка</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/cheese-3.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Откуда в сыре дырки?</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/chees-5.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Сырная диета</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/cheese-4.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Посол сырной головки</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/cheese-6.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Посол сырной головки</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col chese_col col-md-6">
+                    <div class="card">
+                        <img src="img/cheese-1.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Посол сырной головки</h5>
+                            <p class="card-text">Особенно характерно наличие дырочек разных размеров в структуре
+                                швейцарских сортов...</p>
+                            <a href="#" class="text-decoration-none col_Link2">Читать далее ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="order_btn">Загрузить еще</button>
+    </div>
+
+    <footer class="footer">
+        <div class="payment d-inline-block">
+            <span class="footer_Span">Способы оплаты</span>
+            <a href="#"><img src="img/Visa.png" alt=""></a>
+            <a href="#"><img src="img/Mastercard.png" alt=""></a>
+            <a href="#"><img src="img/Yandex.png" alt=""></a>
+        </div>
+        <span class="street">г. Москва, улица Свободы 1/7</span>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

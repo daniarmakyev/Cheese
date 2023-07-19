@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    .delivery_Span {
+        margin: 0;
+    }
+
+    .delivery {
+        margin: none;
+    }
+
+    .tel {
+        float: none;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 890px) {
+    .tel {
+        float: right;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .tel_btn {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 875px) {
+    .content {
+        grid-row-start: 4;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .content {
+        margin-right: 300px;
+    }
+
+    .footer {
+        grid-row-start: 3;
+    }
+}

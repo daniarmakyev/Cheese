@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    background-color: #FFFBED;
+    color: #292929;
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'sidebar content'
+     'footer footer'     ;
+    grid-template-columns: 0.4fr 0.8fr;
+    grid-template-rows: auto auto auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1180px !important;
+    padding: 15px;
+    margin: 0 auto;
+}

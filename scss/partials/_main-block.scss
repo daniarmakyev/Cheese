@@ -1,0 +1,176 @@
+.sidebar {
+    grid-area: sidebar;
+    margin-top: 20px;
+    text-align: left;
+    align-self: start;
+    grid-column-end: -1;
+    display: inline-block;
+    height: auto;
+}
+
+.sidebar_a {
+    text-decoration: none;
+    color: #4E2D2D;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.sidebar__nav {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #808080;
+}
+
+.sidebar__nav__main {
+    color: #808080;
+    text-decoration: none;
+    margin-right: 9px;
+}
+
+.sidebar__nav__main:hover {
+    text-decoration: underline !important;
+    color: #FD9339 !important;
+}
+
+.sidebar__nav__other {
+    color: #FD9339;
+    text-decoration: none;
+    margin-left: 9px;
+}
+
+.sidebar__nav__other:hover {
+    text-decoration: underline !important;
+}
+
+.sidebar_a:hover {
+    color: #4E2D2D;
+}
+
+.li__active {
+    background-color: #FBE8BB;
+    background-image: url(../img/cheese-nav.svg);
+    background-repeat: no-repeat;
+    background-position: 12px 14px;
+}
+
+.sidebar__li {
+    font-weight: 500;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #E7E7E7;
+    width: 280px;
+    height: 48px;
+    padding-left: 42px;
+    padding-top: 13px;
+}
+
+.sidebar__li:hover {
+    background: #FBE8BB;
+    background-image: url(../img/cheese-nav.svg);
+    background-repeat: no-repeat;
+    background-position: 12px 14px;
+}
+
+.content {
+    grid-area: content;
+    grid-column-end: -2;
+    margin-top: 30px;
+}
+
+.cheese_card {
+    max-width: 280px;
+}
+
+.cheese_1 {
+    border-bottom: 2px solid #E7E7E7;
+    padding-bottom: 70px;
+    margin-left: 50px;
+
+    .col {
+        max-width: 280px;
+    }
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #4E2D2D;
+    margin-bottom: 50px;
+}
+
+.col_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.col_link {
+    color: #FD9339;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.col_link:hover {
+    color: #b86115;
+}
+
+
+.cheese_title {
+    bottom: 0;
+}
+
+.cheese_2 {
+    padding-top: 38px;
+    margin-left: 50px;
+
+    .col {
+        max-width: 280px;
+        height: auto;
+    }
+}
+
+.chese_col .card .card-body p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    max-width: 270px;
+    max-height: 72px;
+}
+
+.chese_col .card .card-body h5 {
+    color: #4E2D2D;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.col_Link2 {
+    color: #FD9339;
+}
+
+.col_Link2:hover {
+    color: #b86115;
+    text-decoration: underline !important;
+}
+
+.order_btn {
+    background: #FD9339;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 51px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 38%;
+}
+
+.order_btn:hover {
+    background: #be6a20;
+}
