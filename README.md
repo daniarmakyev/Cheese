@@ -38,10 +38,5 @@
 ```
 ![logo](img/header-pic-md.png)
 
-## Команда проекта
 
-
-- [Макыев Данияр] — Front-End developer
-
-## Источники
 [Figma](https://www.figma.com/file/JNxErrWAN0YcgFYOoR1thY/SyroLavka?node-id=3%3A42)
