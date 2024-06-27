@@ -7,7 +7,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ## Bootstrap
-В headere был использован bootstrap, при уменьшении разрешения до 992px на экране выходит кнопка с навигацией.Так же на сайте присутсвует сайдбар.
+В header был использован bootstrap, при уменьшении разрешения до 992px на экране выходит кнопка с навигацией.Так же на сайте присутсвует сайдбар.
 ``` html
         <div class="header__top">
             <div class="container">
