@@ -6,35 +6,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-## Bootstrap
-``` html
-        <div class="header__top">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg header__nav d-inline-flex">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link active nav__link" aria-current="page" href="#">Рецепты</a>
-                                <a class="nav-link active nav__link" aria-current="page" href="#">Доставка и оплата</a>
-                                <a class="nav-link active nav__link" aria-current="page" href="#">Калькулятор
-                                    сыродела</a>
-                                <a class="nav-link active nav__link" aria-current="page" href="#">Отзывы</a>
-                                <a class="nav-link active nav__link" aria-current="page" href="#">Контакты</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <a href="#" class="header__login text-nowrap float-end">Войти в аккаунт</a>
-            </div>
-        </div>
 
-
-```
 ![logo](img/header-pic-md.png)
 
 
